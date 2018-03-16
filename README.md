@@ -1,8 +1,8 @@
 # Nord Discord
-An arctic, north-bluish clean and elegant minimal Discord UI.
+An arctic, north-bluish clean and elegant minimal Discord UI.  
 Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.<br>
 
-![preview][media/preview.png]
+![preview](media/preview.png)
 
 ## Getting started
 ### Installation
