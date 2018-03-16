@@ -1,0 +1,236 @@
+//META{"name":"Nord","description":"Nord theme. An arctic, north-bluish clean and elegant minimal Discord UI.","author":"Findoss","version":"1.0"}*//
+
+:root {
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+}
+
+/* top */
+
+.typeWindows-15E0Ys {
+	background-color: var(--nord0) !important;
+}
+
+
+/* 1 */
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+	background-color: var(--nord3) !important;
+}
+
+.guilds-wrapper .guilds {
+	background-color: var(--nord0) !important;
+}
+
+.guilds-wrapper .guilds .friends-icon {
+	background-color: var(--nord10) !important;
+}
+
+.private-channels .search-bar {
+	background-color: var(--nord1) !important;
+}
+
+.search-bar .search-bar-inner {
+	background-color: var(--nord0) !important;
+}
+
+.guilds-wrapper .guilds .friends-online {
+  color: var(--nord6);
+}
+
+/* 2 */
+
+.nameDefault-1I0lx8 {
+  color: var(--nord6) !important;
+}
+
+.nameSpeaking-3ROx9q {
+  color: var(--nord14) !important;
+}
+
+.contentSelectedText-3j5CXt {
+  background-color: var(--nord0) !important;
+}
+
+.alt-2vq4VR .item-rK1j5B {
+  color: var(--nord0)!important;
+  opacity: 1;
+}
+
+.private-channels .channel .channel-name {
+  color: var(--nord6)!important;
+  opacity: .7 !important;
+}
+
+.private-channels .channel:hover a {
+  background-color: var(--nord0) !important;
+}
+
+.scroller-fzNley {
+	background-color: var(--nord1) !important;
+}
+
+.container-iksrDt {
+	background-color: var(--nord0) !important;
+}
+
+.private-channels .channel.selected a {
+	background-color: var(--nord3) !important;
+}
+
+.header-1tSljs {
+	background-color: var(--nord1) !important;
+}
+
+.container-3lnMWU {
+  background-color: var(--nord0) !important;
+}
+
+.headerTop-27AvhA {
+	background-color: var(--nord1) !important;
+}
+
+.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
+	background-color: var(--nord2) !important;
+}
+
+.theme-dark .quickMessage-OCo-Q0 {
+	background-color: var(--nord0) !important;
+}
+
+/* 3 */
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
+  background-color: var(--nord2) !important;
+}
+
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+  background-color: var(--nord2) !important;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+  background-color: var(--nord14) !important;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+  background-color: var(--nord0) !important;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+  background-color: var(--nord0) !important;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+  background-color: var(--nord8) !important;
+}
+
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small, #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+	background-color: var(--nord10) !important;
+}
+
+#friends {
+	background-color: var(--nord2) !important;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+	background-color: var(--nord10) !important;
+}
+
+.theme-dark .headerBar-cxbhPD {
+	background-color: var(--nord2) !important;
+}
+
+#friends .friends-table .friends-table-body {
+	background-color: var(--nord2) !important;
+}
+
+.theme-dark #friends .friends-table .friends-table-header {
+	background-color: var(--nord2) !important;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover {
+  background-color: var(--nord1) !important;
+}
+
+.theme-dark .title-qAcLxz {
+	background-color: var(--nord2) !important;
+}
+
+.search-2--6aU {
+	background-color: var(--nord3) !important;
+}
+
+.chat .messages {
+	background-color: var(--nord0) !important;
+}
+
+.theme-dark .chat form {
+	background-color: var(--nord0) !important;
+}
+
+.theme-dark .chat>.content {
+	background-color: var(--nord0) !important;
+}
+
+.theme-dark .inner-3if5cm {
+	background-color: var(--nord1) !important;
+}
+
+.emojiPicker-3g68GS .header-27dQ-e .search-bar {
+	background-color: var(--nord1) !important;
+}
+
+.emojiPicker-3g68GS .header-27dQ-e {
+  background-color: var(--nord1) !important;
+}
+
+.emojiPicker-3g68GS .category-3rCtoh {
+  background-color: var(--nord1) !important;
+}
+
+.emojiPicker-3g68GS {
+  background-color: var(--nord1) !important;
+}
+
+.message-group.compact .timestamp {
+  color: var(--nord13) !important;
+}
+
+.message-group.compact .message .message-text .markup .user-name {
+  color: var(--nord14) !important;
+}
+
+.message-group.compact .message .markup .message-content {
+  color: var(--nord6) !important;
+  opacity: 1;
+}
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+  color: var(--nord13) !important;
+  background-color: var(--nord1) !important;
+  opacity: 1;
+}
+
+.theme-dark .typing-3eiiL_ {
+  background-color: var(--nord1) !important;
+}
+
+/* 4 */
+
+.theme-dark .channel-members {
+	background-color: var(--nord1) !important;
+}
