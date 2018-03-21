@@ -1,5 +1,4 @@
 //META{"name":"Nord","description":"Nord theme. An arctic, north-bluish clean and elegant minimal Discord UI.","author":"Findoss","version":"1.0"}*//
-
 :root {
   --nord0: #2e3440;
   --nord1: #3b4252;
@@ -22,30 +21,29 @@
 /* top */
 
 .typeWindows-15E0Ys {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
 }
-
 
 /* 1 */
 
 .guilds-wrapper .guilds .guild .guild-inner a {
-	background-color: var(--nord3) !important;
+  background-color: var(--nord3) !important;
 }
 
 .guilds-wrapper .guilds {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
 }
 
 .guilds-wrapper .guilds .friends-icon {
-	background-color: var(--nord10) !important;
+  background-color: var(--nord10) !important;
 }
 
 .private-channels .search-bar {
-	background-color: var(--nord1) !important;
+  background-color: var(--nord1) !important;
 }
 
 .search-bar .search-bar-inner {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
 }
 
 .guilds-wrapper .guilds .friends-online {
@@ -81,19 +79,19 @@
 }
 
 .scroller-fzNley {
-	background-color: var(--nord1) !important;
+  background-color: var(--nord1) !important;
 }
 
 .container-iksrDt {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
 }
 
 .private-channels .channel.selected a {
-	background-color: var(--nord3) !important;
+  background-color: var(--nord3) !important;
 }
 
 .header-1tSljs {
-	background-color: var(--nord1) !important;
+  background-color: var(--nord1) !important;
 }
 
 .container-3lnMWU {
@@ -101,15 +99,19 @@
 }
 
 .headerTop-27AvhA {
-	background-color: var(--nord1) !important;
+  background-color: var(--nord1) !important;
 }
 
 .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
-	background-color: var(--nord2) !important;
+  background-color: var(--nord2) !important;
 }
 
 .theme-dark .quickMessage-OCo-Q0 {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
+}
+
+.video-3lOWa6 {
+  background-color: var(--nord0) !important;
 }
 
 /* 3 */
@@ -139,27 +141,27 @@
 }
 
 #friends .friends-table .friends-row .friends-column-guilds .avatar-small, #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
-	background-color: var(--nord10) !important;
+  background-color: var(--nord10) !important;
 }
 
 #friends {
-	background-color: var(--nord2) !important;
+  background-color: var(--nord2) !important;
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
-	background-color: var(--nord10) !important;
+  background-color: var(--nord10) !important;
 }
 
 .theme-dark .headerBar-cxbhPD {
-	background-color: var(--nord2) !important;
+  background-color: var(--nord2) !important;
 }
 
 #friends .friends-table .friends-table-body {
-	background-color: var(--nord2) !important;
+  background-color: var(--nord2) !important;
 }
 
 .theme-dark #friends .friends-table .friends-table-header {
-	background-color: var(--nord2) !important;
+  background-color: var(--nord2) !important;
 }
 
 .theme-dark #friends .friends-table .friends-row:hover {
@@ -167,31 +169,31 @@
 }
 
 .theme-dark .title-qAcLxz {
-	background-color: var(--nord2) !important;
+  background-color: var(--nord2) !important;
 }
 
 .search-2--6aU {
-	background-color: var(--nord3) !important;
+  background-color: var(--nord3) !important;
 }
 
 .chat .messages {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
 }
 
 .theme-dark .chat form {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
 }
 
 .theme-dark .chat>.content {
-	background-color: var(--nord0) !important;
+  background-color: var(--nord0) !important;
 }
 
 .theme-dark .inner-3if5cm {
-	background-color: var(--nord1) !important;
+  background-color: var(--nord1) !important;
 }
 
 .emojiPicker-3g68GS .header-27dQ-e .search-bar {
-	background-color: var(--nord1) !important;
+  background-color: var(--nord1) !important;
 }
 
 .emojiPicker-3g68GS .header-27dQ-e {
@@ -232,5 +234,5 @@
 /* 4 */
 
 .theme-dark .channel-members {
-	background-color: var(--nord1) !important;
+  background-color: var(--nord1) !important;
 }
