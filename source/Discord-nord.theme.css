@@ -33,9 +33,21 @@
   background-color: var(--nord0);
 }
 
-/* панель слева - фон */
+/* панель справа - фон */
 .scroller-fzNley {
   background-color: var(--nord1);
+}
+
+/*********************
+  * ОКНО - ПРОФИЛЬ
+**********************/
+
+.header-QKLPzZ {
+  background-color: var(--nord1); 
+}
+
+.tabBarContainer-1s1u-z {
+  background-color: var(--nord0); 
 }
 
 /*********************
@@ -246,6 +258,27 @@
   background-color: var(--nord10); 
 }
 
+
+
+
+/* НЕ РАЗОБРАННОЕ ↓ НЕ РАЗОБРАННОЕ */
+/* НЕ РАЗОБРАННОЕ ↓ НЕ РАЗОБРАННОЕ */
+/* НЕ РАЗОБРАННОЕ ↓ НЕ РАЗОБРАННОЕ */
+
+/* top */
+
+.typeWindows-15E0Ys {
+  background-color: var(--nord0) !important;
+}
+
+
+.new-message-bar {
+  background-color: var(--nord10); 
+}
+
+
+
+
 /* 2 */
 
 .nameDefault-1I0lx8 {
@@ -270,13 +303,9 @@
   opacity: .7 !important;
 }
 
-.private-channels .channel:hover a {
-  background-color: var(--nord0) !important;
-}
 
-.scroller-fzNley {
-  background-color: var(--nord1) !important;
-}
+
+
 
 .container-iksrDt {
   background-color: var(--nord0) !important;
@@ -392,40 +421,10 @@
   background-color: var(--nord1) !important;
 }
 
-.emojiPicker-3g68GS .header-27dQ-e .search-bar {
-  background-color: var(--nord1) !important;
-}
 
-.emojiPicker-3g68GS .header-27dQ-e {
-  background-color: var(--nord1) !important;
-}
 
-.emojiPicker-3g68GS .category-3rCtoh {
-  background-color: var(--nord1) !important;
-}
 
-.emojiPicker-3g68GS {
-  background-color: var(--nord1) !important;
-}
 
-.message-group.compact .timestamp {
-  color: var(--nord13) !important;
-}
-
-.message-group.compact .message .message-text .markup .user-name {
-  color: var(--nord14) !important;
-}
-
-.message-group.compact .message .markup .message-content {
-  color: var(--nord6) !important;
-  opacity: 1;
-}
-
-.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
-  color: var(--nord13) !important;
-  background-color: var(--nord1) !important;
-  opacity: 1;
-}
 
 .theme-dark .typing-3eiiL_ {
   background-color: var(--nord1) !important;
