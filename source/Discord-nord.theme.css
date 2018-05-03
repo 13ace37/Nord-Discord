@@ -24,14 +24,20 @@
   background-color: var(--nord0);
 }
 
-.typeWindows-15E0Ys {
-  background-color: var(--nord0) !important;
+/*********************
+  * ОКНО - НАСТРОЙКИ
+**********************/
+
+/*панель слева - фон */
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
+  background-color: var(--nord0);
 }
 
-/* 1 */
+/* панель слева - фон */
+.scroller-fzNley {
+  background-color: var(--nord1);
+}
 
-.guilds-wrapper .guilds .guild .guild-inner a {
-  background-color: var(--nord3) !important;
 }
 
 .guilds-wrapper .guilds {
