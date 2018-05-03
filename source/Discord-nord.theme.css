@@ -105,6 +105,133 @@
   color: var(--nord6);
 }
 
+/*********************
+  ** СООБЩЕНИЯ
+**********************/
+
+/* фон */
+.theme-dark .messages-wrapper {
+  background-color: var(--nord0);
+ }
+
+/* собеседник пишет - фон */
+.theme-dark .typing-2GQL18 {
+  background-color: var(--nord0);
+}
+
+/* меню собеседник - фон */
+.theme-dark .title-3qD0b- {
+  background-color: var(--nord0);
+}
+
+/* приложенные файлы - фон */
+.theme-dark .attachment-33OFj0 {
+  background-color: var(--nord1);
+}
+
+/* приложенные файлы - цвет */
+.metadata-3WGS0M {
+  color: var(--nord4);
+}
+
+/* время сообщения - цвет */
+.theme-dark .message-group.compact .timestamp {
+  color: var(--nord13);
+}
+
+/* имена - цвет */
+.theme-dark .message-group.compact .message .message-text .markup .user-name {
+  color: var(--nord14);
+}
+
+/* сообщение - цвет */
+.theme-dark .message-group .message .markup .message-content {
+  color: var(--nord6);
+  opacity: 1;
+}
+
+/* дата сообщения - фон */
+.theme-dark .friends-table .messages .divider span,
+.theme-dark .messages-wrapper .messages .divider span {
+  color: var(--nord13);
+  background-color: var(--nord1);
+  opacity: 1;
+}
+
+/* дата сообщения - цвет */
+.theme-dark .friends-table .messages .divider:not(.red) span, 
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+  color: var(--nord13);
+}
+
+/* опции для сообщения */
+.small-popout-box {
+  background-color: var(--nord1);
+  border-color: var(--nord1);
+  padding: 3px;
+}
+.small-popout-box .btn-item {
+  color: var(--nord4);
+}
+.small-popout-box .btn-item:hover {
+  color: var(--nord6);
+  background-color: var(--nord0);
+}
+
+/*********************
+  *** ИНПУТ
+**********************/
+
+/* фон1 */
+.theme-dark .chat form {
+  background-color: var(--nord0);
+}
+
+/* фон2 */
+.theme-dark .chat>.content {
+  background-color: var(--nord0);
+}
+
+/* фон3 */
+.textArea-2Spzkt {
+  background-color: var(--nord1);
+}
+
+/* фон4 */
+.theme-dark .inner-zqa7da {
+  background-color: var(--nord1);
+}
+
+/* emoji */
+.emojiPicker-3m1S-j {
+  background-color: var(--nord1);
+}
+
+/* emoji */
+.emojiPicker-3m1S-j .header-1nkwgG .search-bar {
+  background-color: var(--nord1);
+}
+
+/* emoji */
+.emojiPicker-3m1S-j .header-1nkwgG {
+  background-color: var(--nord1);
+}
+
+/* emoji */
+.emojiPicker-3m1S-j .category-2U57w6 {
+  background-color: var(--nord1);
+}
+
+/* выбранная emoji */
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+  background-color: var(--nord0);
+}
+
+/* инпут emoji */
+.search-bar.search-bar-light .search-bar-inner {
+  background-color: var(--nord0);
+}
+
 /* 2 */
 
 .nameDefault-1I0lx8 {
