@@ -38,24 +38,69 @@
   background-color: var(--nord1);
 }
 
+/*********************
+  * ОКНО - ЛИЧНЫЕ СООБЩЕНИЯ
+**********************/
+
+/*********************
+  ** СПИСОК ДРУЗЕЙ
+**********************/
+
+/* фон */
+.scroller-2FKFPG {
+  background-color: var(--nord1);
 }
 
-.guilds-wrapper .guilds {
-  background-color: var(--nord0) !important;
+/* выбранный друг */
+.private-channels .channel.selected a {
+  background-color: var(--nord3);
 }
 
-.guilds-wrapper .guilds .friends-icon {
-  background-color: var(--nord10) !important;
+/* наведено на друг */
+.private-channels .channel:hover a {
+  color: var(--nord6);
+  background-color: var(--nord0);
 }
 
+/* меню профиль микро/наушники/настройки - фон */
+.container-2Thooq {
+  background-color: var(--nord1);
+}
+
+/*********************
+  ** МЕНЮ ПОИСКА
+**********************/
+
+/* фон */
 .private-channels .search-bar {
-  background-color: var(--nord1) !important;
+  background-color: var(--nord1);
 }
 
+/* инпут - фон */
 .search-bar .search-bar-inner {
-  background-color: var(--nord0) !important;
+  background-color: var(--nord0);
 }
 
+/*********************
+  ** СПИСОК ГИЛЬДИЙ
+**********************/
+
+/* фон */
+.guilds-wrapper {
+  background-color: var(--nord0);
+}
+
+/* cсылка на личные сообщения - фон  */
+.guilds-wrapper .guilds .guild .guild-inner a {
+  background-color: var(--nord3);
+}
+
+/* иконка личных сообщений - фон */
+.guilds-wrapper .guilds .friends-icon {
+  background-color: var(--nord10);
+}
+
+/* в сети - цвет */
 .guilds-wrapper .guilds .friends-online {
   color: var(--nord6);
 }
