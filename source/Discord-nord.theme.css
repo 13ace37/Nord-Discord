@@ -232,6 +232,20 @@
   background-color: var(--nord0);
 }
 
+/*********************
+  * ОКНО - СЕРВЕР
+**********************/
+
+/* заголовок сервера */
+.container-2Rl01u {
+  background-color: var(--nord1);
+}
+
+/* подсказка о новых сообщениях */
+.new-message-bar {
+  background-color: var(--nord10); 
+}
+
 /* 2 */
 
 .nameDefault-1I0lx8 {
