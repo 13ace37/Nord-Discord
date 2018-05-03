@@ -116,6 +116,10 @@
 
 /* 3 */
 
+.theme-dark .members-1bid1J {
+  background-color: var(--nord1) !important;
+}
+
 #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
   background-color: var(--nord2) !important;
 }
