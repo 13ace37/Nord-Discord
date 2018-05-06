@@ -1,5 +1,4 @@
 //META{"name":"Nord","description":"Nord theme. An arctic, north-bluish clean and elegant minimal Discord UI.","author":"Findoss","version":"1.1"}*//
-
 :root {
   --nord0: #2e3440;
   --nord1: #3b4252;
@@ -20,6 +19,7 @@
 }
 
 /* заголовок окна */
+
 .typeWindows-1za-n7 {
   background-color: var(--nord0);
 }
@@ -29,11 +29,13 @@
 **********************/
 
 /*панель слева - фон */
+
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
   background-color: var(--nord0);
 }
 
 /* панель справа - фон */
+
 .scroller-fzNley {
   background-color: var(--nord1);
 }
@@ -43,11 +45,11 @@
 **********************/
 
 .header-QKLPzZ {
-  background-color: var(--nord1); 
+  background-color: var(--nord1);
 }
 
 .tabBarContainer-1s1u-z {
-  background-color: var(--nord0); 
+  background-color: var(--nord0);
 }
 
 /*********************
@@ -55,6 +57,7 @@
 **********************/
 
 /* быстрое переключение */
+
 .theme-dark .quickswitcher-3JagVE {
   background-color: var(--nord1);
 }
@@ -64,23 +67,33 @@
 **********************/
 
 /* фон */
+
 .scroller-2FKFPG {
   background-color: var(--nord1);
 }
 
 /* выбранный друг */
+
 .private-channels .channel.selected a {
   background-color: var(--nord3);
 }
 
 /* наведено на друг */
+
 .private-channels .channel:hover a {
   color: var(--nord6);
   background-color: var(--nord0);
 }
 
 /* меню профиль микро/наушники/настройки - фон */
+
 .container-2Thooq {
+  background-color: var(--nord1);
+}
+
+/* меню звонка - фон */
+
+.container-1UB9sr {
   background-color: var(--nord1);
 }
 
@@ -89,79 +102,97 @@
 **********************/
 
 /* выбран друг */
+
 .theme-dark #friends .friends-table .friends-row:hover {
   background-color: var(--nord1);
 }
 
 /* таблица друзей - фон */
+
 #friends .friends-table .friends-table-body {
   background-color: var(--nord0);
 }
+
 #friends .friends-table {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 /* заголовок таблицы друзей - фон */
+
 .theme-dark .friends-table-header {
   background-color: var(--nord0);
 }
 
 /* меню действий с друзьями - фон */
+
 .theme-dark .headerBar-UHpsPw {
   background-color: var(--nord1);
 }
 
 /* меню действий закладки - фон */
+
 .theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX {
   background-color: var(--nord0);
 }
+
 .scroller-wrap .scroller {
   background-color: var(--nord0);
 }
+
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
   background-color: var(--nord0);
 }
+
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
   background-color: var(--nord1);
 }
 
 /* контекстное меню друзья - фон */
+
 .contextMenu-HLZMGh.theme-dark {
   background-color: var(--nord1);
 }
 
 /* добавить друга - фон */
+
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
   background-color: var(--nord0);
 }
+
 #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
   background-color: var(--nord0);
 }
+
 #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts {
   background-color: var(--nord0);
 }
 
 /* новые лс */
+
 .theme-dark .themed-popout .header {
   background-color: var(--nord0);
 }
 
 /* новые лс - фон */
+
 .theme-dark .private-channel-recipients-invite .friend {
   background-color: var(--nord0);
 }
 
 /* новые лс - друзья выбраны */
+
 .theme-dark .private-channel-recipients-invite .friend.selected {
   background-color: var(--nord2) !important;
 }
 
 /* новые лс - фон */
+
 .theme-dark .themed-popout .footer {
   background-color: var(--nord0);
 }
 
 /* новые лс - тег */
+
 .search-bar-tag {
   background-color: var(--nord1);
 }
@@ -171,11 +202,13 @@
 **********************/
 
 /* фон */
+
 .private-channels .search-bar {
   background-color: var(--nord1);
 }
 
 /* инпут - фон */
+
 .search-bar .search-bar-inner {
   background-color: var(--nord0);
 }
@@ -185,21 +218,25 @@
 **********************/
 
 /* фон */
+
 .guilds-wrapper {
   background-color: var(--nord0);
 }
 
-/* cсылка на личные сообщения - фон  */
+/* cсылка на личные сообщения - фон */
+
 .guilds-wrapper .guilds .guild .guild-inner a {
   background-color: var(--nord3);
 }
 
 /* иконка личных сообщений - фон */
+
 .guilds-wrapper .guilds .friends-icon {
   background-color: var(--nord10);
 }
 
 /* в сети - цвет */
+
 .guilds-wrapper .guilds .friends-online {
   color: var(--nord6);
 }
@@ -209,50 +246,66 @@
 **********************/
 
 /* фон */
+
 .theme-dark .messages-wrapper {
   background-color: var(--nord0);
- }
+}
+
+/* звонки - фон */
+
+.video-1FfuMD {
+  background-color: var(--nord0);
+}
 
 /* собеседник пишет - фон */
+
 .theme-dark .typing-2GQL18 {
   background-color: var(--nord0);
 }
 
 /* меню собеседник - фон */
+
 .theme-dark .title-3qD0b- {
   background-color: var(--nord0);
 }
 
 /* приложенные файлы - фон */
+
 .theme-dark .attachment-33OFj0 {
   background-color: var(--nord1);
 }
 
 /* приложенные файлы - цвет */
+
 .metadata-3WGS0M {
   color: var(--nord4);
 }
 
 /* время сообщения - цвет */
+
 .theme-dark .message-group.compact .timestamp {
   color: var(--nord13);
 }
 
 /* имена - цвет */
+
 .theme-dark .message-group.compact .message .message-text .markup .user-name {
   color: var(--nord14);
 }
 
 /* сообщение - цвет */
+
 .theme-dark .message-group .message .markup .message-content {
   color: var(--nord6);
   opacity: 1;
 }
+
 .theme-dark .message-group .mentioned .message-text {
-    background: 0;
+  background: 0;
 }
 
 /* дата сообщения - фон */
+
 .theme-dark .friends-table .messages .divider span,
 .theme-dark .messages-wrapper .messages .divider span {
   color: var(--nord13);
@@ -261,20 +314,24 @@
 }
 
 /* дата сообщения - цвет */
-.theme-dark .friends-table .messages .divider:not(.red) span, 
+
+.theme-dark .friends-table .messages .divider:not(.red) span,
 .theme-dark .messages-wrapper .messages .divider:not(.red) span {
   color: var(--nord13);
 }
 
 /* опции для сообщения */
+
 .small-popout-box {
   background-color: var(--nord1);
   border-color: var(--nord1);
   padding: 3px;
 }
+
 .small-popout-box .btn-item {
   color: var(--nord4);
 }
+
 .small-popout-box .btn-item:hover {
   color: var(--nord6);
   background-color: var(--nord0);
@@ -285,51 +342,61 @@
 **********************/
 
 /* фон1 */
+
 .theme-dark .chat form {
   background-color: var(--nord0);
 }
 
 /* фон2 */
+
 .theme-dark .chat>.content {
   background-color: var(--nord0);
 }
 
 /* фон3 */
+
 .textArea-2Spzkt {
   background-color: var(--nord1);
 }
 
 /* фон4 */
+
 .theme-dark .inner-zqa7da {
   background-color: var(--nord1);
 }
 
 /* emoji */
+
 .emojiPicker-3m1S-j {
   background-color: var(--nord1);
 }
 
 /* emoji */
+
 .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
   background-color: var(--nord1);
 }
 
 /* emoji */
+
 .emojiPicker-3m1S-j .header-1nkwgG {
   background-color: var(--nord1);
 }
 
 /* emoji */
+
 .emojiPicker-3m1S-j .category-2U57w6 {
   background-color: var(--nord1);
 }
 
 /* выбранная emoji */
+
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
   background-color: var(--nord0);
 }
 
 /* инпут emoji */
+
 .search-bar.search-bar-light .search-bar-inner {
   background-color: var(--nord0);
 }
@@ -339,21 +406,25 @@
 **********************/
 
 /* заголовок сервера */
+
 .container-2Rl01u {
   background-color: var(--nord1);
 }
 
 /* подсказка о новых сообщениях */
+
 .new-message-bar {
-  background-color: var(--nord10); 
+  background-color: var(--nord10);
 }
- 
+
 /* список пользователей - фон */
+
 .theme-dark .members-1998pB {
-  background-color: var(--nord0); 
+  background-color: var(--nord0);
 }
 
 /* список каналов - выбрано */
+
 .contentSelectedText-3wUhMi {
   background-color: var(--nord3);
 }
