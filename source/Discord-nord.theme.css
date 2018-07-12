@@ -450,3 +450,21 @@
 .theme-dark .header-1RC2Wb:hover {
   background-color: var(--nord10);
 }
+
+/* карточка игры - фон */
+
+.theme-dark .body-1SVoBw {
+  background-color: var(--nord0);
+}
+
+/* карточка игры - удаление маски на фото */
+
+.overlay-n52Tzn {
+  -webkit-mask: none;
+}
+
+/* карточка игры - кнопка играть */
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {
+  background-color: var(--nord9);
+}
